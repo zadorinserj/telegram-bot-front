@@ -11,4 +11,3 @@ tmp-package.json
 yarn-error.log
 cypress/videos
 .next/
-.next

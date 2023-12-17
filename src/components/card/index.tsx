@@ -19,6 +19,7 @@ export const Card: FC<TCard> = ({
             <div className='relative w-full h-min mb-5 rounded-3xl overflow-hidden'>
                 <div className='absolute top-3.5 right-2.5 py-2 px-3.5 rounded-xl font-medium' style={{ backgroundColor: 'rgba(28, 29, 32, 0.35)', color: '#fff' }}>{discount}</div>
                 <Image
+                    alt=''
                     src={imageSrc}
                     style={{
                         width: '100%',

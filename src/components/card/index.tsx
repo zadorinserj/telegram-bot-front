@@ -1,8 +1,8 @@
 import type { FC } from 'react';
-import Image from 'next/image';
+import Image, {StaticImageData} from 'next/image';
 
 type TCard = {
-    imageSrc: string;
+    imageSrc: StaticImageData;
     title: string;
     price: string;
     discount: string;
